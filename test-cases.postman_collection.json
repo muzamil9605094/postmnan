@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "ab1792c6-e2e8-4610-ae88-da98cb319c5b",
+		"name": "test-cases",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "{{key}}",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "admin",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"<div class=\"postman-run-button\"",
+					"data-postman-action=\"collection/fork\"",
+					"data-postman-var-1=\"4151223-681e8daf-3e97-453b-b719-5994a4aea085\"",
+					"data-postman-collection-url=\"entityId=4151223-681e8daf-3e97-453b-b719-5994a4aea085&entityType=collection&workspaceId=62d358dc-8d51-4542-9579-0d2af8157c25\"></div>",
+					"<script type=\"text/javascript\">",
+					"  (function (p,o,s,t,m,a,n) {",
+					"    !p[s] && (p[s] = function () { (p[t] || (p[t] = [])).push(arguments); });",
+					"    !o.getElementById(s+t) && o.getElementsByTagName(\"head\")[0].appendChild((",
+					"      (n = o.createElement(\"script\")),",
+					"      (n.id = s+t), (n.async = 1), (n.src = m), n",
+					"    ));",
+					"  }(window, document, \"_pm\", \"PostmanRunObject\", \"https://run.pstmn.io/button.js\"));",
+					"</script>",
+					""
+				]
+			}
+		}
+	]
+}
